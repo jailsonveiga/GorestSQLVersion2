@@ -7,7 +7,14 @@ package com.jv.gorestsqlv2.models;
         "email": "minakshi_bharadwaj@kuhic.org",
         "gender": "female",
         "status": "inactive"
-    },
+    }
+
+     {
+        "name": "",
+        "email": "",
+        "gender": "",
+        "status": ""
+    }
 */
 
 import javax.persistence.*;
