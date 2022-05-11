@@ -40,6 +40,8 @@ public class UserValidation {
         if (userGender == null || userGender.trim().equals("")) {
             errors.addError("gender", "Gender can not be left blank");
         }
+
+
         else if(!(userGender.equals("male") || userGender.equals("female") || userGender.equals("other") )) {
             errors.addError("gender", "Gender must be: male, female, or other");
         }
